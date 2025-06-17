@@ -37,7 +37,7 @@ const PortfolioList = () => {
 
   return (
     <div>
-      <div className="w-full max-w-2xl mx-auto px-4 mb-6">
+      <div className="w-full max-w-2xl mx-auto px-4 mb-6" data-aos="faed-up" data-aos-delay="50">
       <SearchPortfolioBar value={search} onChange={setSearch} />
       </div>
       <div className="grid grid-cols-2 gap-6 mt-4 w-full max-w-2xl">
